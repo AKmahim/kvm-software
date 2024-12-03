@@ -3,7 +3,7 @@ import pickle
 import pyautogui
 
 # Network configuration
-SERVER_IP = '192.168.x.x'  # Replace with the server's IP address
+SERVER_IP = '192.168.1.104'  # Replace with the server's IP address
 PORT = 5000
 
 # Create socket
@@ -30,7 +30,7 @@ def handle_event(data):
     elif event_type == 'mouse_scroll':
         pyautogui.scroll(event_data['dy'])
 
-# Main loop
+# Main loopKey.downKey.up
 try:
     while True:
         data = client_socket.recv(4096)
