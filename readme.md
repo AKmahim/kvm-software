@@ -27,7 +27,7 @@
 ### Prerequisites
 - Python 3.8+
 - [Git](https://git-scm.com/)
-
+- socket io
 
 ### Clone the Repository
 
